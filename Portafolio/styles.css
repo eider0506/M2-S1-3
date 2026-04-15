@@ -1,7 +1,9 @@
 /*Index*/
+
+
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: rosybrown ;
+    background-color: rgb(188, 143, 143) ;
 }
 
 section.sobremi{
@@ -28,14 +30,11 @@ section.links{
 section.contact{
     text-align: left;
     background-color: rgb(126, 126, 233);
-    text-align: left;
 }
 .titulo{
     text-align: center;
     font-size: 1.2em;
 }
-
-
 
 .link1{
     display: flex;
@@ -51,12 +50,31 @@ section.contact{
 
 /*Mascotas*/
 
-img{
-    display: flex;
-    
+.animals{
+    font-size: 1.7em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
+
+img{
+    width: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);        
+    background-color: rgb(148, 111, 56)  ;
+    padding: 1.5rem;        
+    border-radius: 3rem;
+    margin:2.5rem
+}
+img:hover{
+    transform: scale(1.2);
+    background-color: rgb(108, 112, 46);
+    box-shadow: 15px 15px 20px;
+}
+
+
 footer{
     background-color: white;
+    margin-bottom: 0%;
+    
 }
 
 .link2{
@@ -71,3 +89,4 @@ footer{
     font-style: italic;
     padding-left: 0.5%;
 }
+
