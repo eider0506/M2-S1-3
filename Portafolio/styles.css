@@ -1,0 +1,92 @@
+/*Index*/
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(188, 143, 143) ;
+}
+
+section.sobremi{
+    text-align: center;
+    background-color: rgb(89, 226, 226)  ;
+    padding: 2.5rem;
+    border-radius: 3rem;
+    margin:5rem
+}
+
+section.pagina{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 20rem;
+    font-size: 1.7em;
+    
+}
+section.links{
+
+    background-color: aquamarine;   
+    
+}
+
+section.contact{
+    text-align: left;
+    background-color: rgb(126, 126, 233);
+}
+.titulo{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.link1{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+.link1:hover{
+    color: blue;
+    font-style: italic;
+    padding-left: 1.5%;
+}
+
+/*Mascotas*/
+
+.animals{
+    font-size: 1.7em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+img{
+    width: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);        
+    background-color: rgb(148, 111, 56)  ;
+    padding: 1.5rem;        
+    border-radius: 3rem;
+    margin:2.5rem
+}
+img:hover{
+    transform: scale(1.2);
+    background-color: rgb(108, 112, 46);
+    box-shadow: 15px 15px 20px;
+}
+
+
+footer{
+    background-color: white;
+    margin-bottom: 0%;
+    
+}
+
+.link2{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-bottom: 1.5%;
+}
+.link2:hover{
+    color: blue;
+    font-style: italic;
+    padding-left: 0.5%;
+}
+
