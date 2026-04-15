@@ -6,8 +6,12 @@ body{
     background-color: rgb(188, 143, 143) ;
 }
 
-section.sobremi{
+
+
+header{
+    justify-content:center;
     text-align: center;
+    align-items: center;
     background-color: rgb(89, 226, 226)  ;
     padding: 2.5rem;
     border-radius: 3rem;
