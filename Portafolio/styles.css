@@ -9,10 +9,10 @@ body{
 
 
 header{
-    justify-content:center;
     text-align: center;
+    justify-content:center;
     align-items: center;
-    background-color: rgb(89, 226, 226)  ;
+    background-color: rgb(169, 231, 231)  ;
     padding: 2.5rem;
     border-radius: 3rem;
     margin:5rem
@@ -27,13 +27,13 @@ section.pagina{
 }
 section.links{
 
-    background-color: aquamarine;   
+    background-color: rgb(150, 143, 218);   
     
 }
 
 section.contact{
     text-align: left;
-    background-color: rgb(126, 126, 233);
+    background-color: rgb(98, 98, 161);
 }
 .titulo{
     text-align: center;
@@ -56,15 +56,15 @@ section.contact{
 
 .animals{
     font-size: 1.7em;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+
 }
 
 img{
     width: 200px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);        
     background-color: rgb(148, 111, 56)  ;
-    padding: 1.5rem;        
+    padding: 50px;        
     border-radius: 3rem;
     margin:2.5rem
 }
@@ -74,10 +74,14 @@ img:hover{
     box-shadow: 15px 15px 20px;
 }
 
-
-footer{
+article{
+    text-align: center;
     background-color: white;
-    margin-bottom: 0%;
+    margin: 50px;
+}
+footer{
+    background-color: rgb(169, 231, 231);
+    background-repeat: repeat;
     
 }
 
