@@ -3,17 +3,18 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(188, 143, 143) ;
+    background:linear-gradient(rgb(221, 186, 134),rgb(20, 117, 53) ) 
+    
+
 }
-
-
 
 header{
     text-align: center;
     justify-content:center;
     align-items: center;
-    background-color: rgb(169, 231, 231)  ;
+    background:linear-gradient(rgb(169, 231, 231), rgb(128, 56, 177))   ;
     padding: 2.5rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);  
     border-radius: 3rem;
     margin:5rem
 }
@@ -24,16 +25,18 @@ section.pagina{
     grid-template-rows: 20rem;
     font-size: 1.7em;
     
+    padding-bottom: 10em;
+    
 }
 section.links{
 
-    background-color: rgb(150, 143, 218);   
-    
+    background-color: rgba(98, 0, 255, 0.5);   
+
 }
 
 section.contact{
     text-align: left;
-    background-color: rgb(98, 98, 161);
+    background-color: rgba(98, 98, 161, 0.5);
 }
 .titulo{
     text-align: center;
@@ -53,11 +56,13 @@ section.contact{
 }
 
 /*Mascotas*/
-
 .animals{
     font-size: 1.7em;
     display: flex;
-
+    flex-wrap: wrap;
+    padding-bottom:7em;
+    padding-left: 7em;
+    text-align: center;
 }
 
 img{
@@ -81,7 +86,7 @@ article{
 }
 footer{
     background-color: rgb(169, 231, 231);
-    background-repeat: repeat;
+    background-clip:padding-box;
     
 }
 
